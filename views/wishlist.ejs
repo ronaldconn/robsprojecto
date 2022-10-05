@@ -1,0 +1,29 @@
+<%- include('partials/header') -%>
+
+<div class="container"></div>
+<% for(var i=0; i<wishlist.length; i++) {%>
+  <ul class="container wishlist">
+      <li class="col-6 justify-content-between mt-5">
+        Post ID: <%=wishlist[i].postId%>
+      </li>
+      <li class="col-6 justify-content-between mt-5">
+        Title: <%=wishlist[i].title%>
+      </li>
+      <li class="col-6 justify-content-between mt-5">
+        Caption: <%=wishlist[i].caption%>
+      </li>
+      <li class="col-6 justify-content-between mt-5">
+        <img src="https://res.cloudinary.com/dvc03xpsv/image/upload/v1663887267/<%=wishlist[i].cloudinaryId%>.jpg" alt="https://res.cloudinary.com/dvc03xpsv/image/upload/v1663887267/<%=wishlist[i].cloudinaryId%>.jpg">
+      </li>
+  </ul>
+<% } %> 
+
+</div>
+     
+
+
+  
+
+    
+
+<%- include('partials/footer') -%>

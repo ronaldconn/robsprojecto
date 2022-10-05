@@ -1,0 +1,40 @@
+body{
+    background-color: #FFF;
+    color: #000;
+}
+li{
+   list-style: none; 
+   color: #ff0000
+}
+div .margin{
+    margin: 10px 0 10px 0;
+}
+.red-text{
+    color:#ff0000
+}
+img, .img-thumbnail{
+    height:200px;
+    width: 200px;
+}
+/*----------------------------------------------------------------------------------  
+    LOGIN Main - gave margin to the login area 
+------------------------------------------------------------------------------------*/    
+main, .marginBottom{
+    margin-bottom: 200px;
+}
+  
+/*----------------------------------------------------------------------------------------*/
+header h1 a{
+    font-family: 'Homemade Apple', cursive;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.wishlist{
+    border: 2px black;
+    border-style: solid;
+    margin: 10px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
